@@ -49,7 +49,7 @@ async def on_ready():
 
 @client.command()
 async def help(ctx):
-	embed = discord.Embed(title = 'Available bot commands', description = '`<  >` - required arguments\n`[  ]` - not required arguments\n\nMake sure to join our [Telegram Group](https://t.me/virusdiscord) incase Discord Server t3rm')
+	embed = discord.Embed(title = 'Available bot commands', description = '`<  >` - required arguments\n`[  ]` - not required arguments\n\nㅤ')
 	embed.add_field(name = '+rep < `@username` > < `reason` >', value = 'Adds positive reputation to user', inline = True)
 	embed.add_field(name = '-rep < `@username` > < `reason` >', value = 'Adds negative reputation to user', inline = True)
 	embed.add_field(name = f'{prefix}profile [ `@username` ]', value = "Shows user's / message author profile", inline = True)
